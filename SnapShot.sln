@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapShot", "SnapShot.csproj", "{A9C6A58C-1FC0-0D5F-6D83-D674EA19189D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapShot.Editor", "SnapShot.Editor.csproj", "{6E6DAEDE-3961-9041-AFD4-0602F5917108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C6A58C-1FC0-0D5F-6D83-D674EA19189D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C6A58C-1FC0-0D5F-6D83-D674EA19189D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C6A58C-1FC0-0D5F-6D83-D674EA19189D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C6A58C-1FC0-0D5F-6D83-D674EA19189D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6DAEDE-3961-9041-AFD4-0602F5917108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6DAEDE-3961-9041-AFD4-0602F5917108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6DAEDE-3961-9041-AFD4-0602F5917108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6DAEDE-3961-9041-AFD4-0602F5917108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
