@@ -28,8 +28,9 @@ public class attributes : MonoBehaviour {
        
         
         GameObject clone;
-        clone = Instantiate(Boom, transform.position)   ) as GameObject;
-        
+        clone = Instantiate(Boom, rigidbody.transform)    as GameObject;
+        Vector3 vel = new Vector3(0f,0f,0f); //
+        clone.GetComponent<Rigidbody2D>().velocity = vel;
         Debug.Log(clone.transform.position);
         Destroy(clone, 25f);
     }
